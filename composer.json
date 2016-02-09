@@ -1,0 +1,21 @@
+{
+    "name": "ovr/ppp",
+    "description": "PHP Preprocessor",
+    "type": "utils",
+    "authors": [
+        {
+            "name": "Dmitry Patsura",
+            "email": "talk@dmtry.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "nikic/php-parser": "~2.0.0",
+        "symfony/console": "~3.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PPP\\": "src/"
+        }
+    }
+}
